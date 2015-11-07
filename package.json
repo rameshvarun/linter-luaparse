@@ -1,0 +1,26 @@
+{
+  "name": "linter-luaparse",
+  "description": "Lua syntax error checking, using the luaparse javascript library.",
+  "author": "Varun Ramesh <varunramesh@live.com>",
+  "license": "MIT",
+  "version": "0.0.0",
+  "main": "./lib/main",
+  "repository": "https://github.com/rameshvarun/linter-luaparse",
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "engines": {
+    "atom": "^1.0.9"
+  },
+  "scripts": {
+    "lint": "eslint . && flow check"
+  },
+  "dependencies": {
+    "log4js": "^0.6.27",
+    "luaparse": "^0.2.0"
+  }
+}
