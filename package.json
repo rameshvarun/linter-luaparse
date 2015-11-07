@@ -3,7 +3,7 @@
   "description": "Lua syntax error checking, using the luaparse javascript library.",
   "author": "Varun Ramesh <varunramesh@live.com>",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "./lib/main",
   "repository": "https://github.com/rameshvarun/linter-luaparse",
   "providedServices": {
