@@ -22,5 +22,9 @@
   "dependencies": {
     "log4js": "^0.6.27",
     "luaparse": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.4",
+    "eslint": "^1.9.0"
   }
 }

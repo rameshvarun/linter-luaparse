@@ -13,6 +13,7 @@ type RangeObject = atom$Range | [PointObject, PointObject];
 declare class atom$TextEditor {
   getTextInBufferRange(range: atom$Range): string;
   getTitle(): string;
+  getText(): string;
 };
 
 declare class atom$Range {

@@ -3,7 +3,7 @@ declare class Linter {
   grammarScopes: Array<string>;
   scope: string;
   lintOnFly: boolean;
-  lint: (atom$TextEditor) => Promise<Array<Message>>;
+  lint: (editor: atom$TextEditor) => Promise<Array<Message>>;
 };
 
 declare class Message {
@@ -11,7 +11,7 @@ declare class Message {
   text?: string;
   html?: string;
   filePath?: string;
-  range?: Range;
+  range?: atom$Range;
   trace?: Array<Trace>;
 };
 

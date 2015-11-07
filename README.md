@@ -1,3 +1,3 @@
 # linter-luaparse
 
-A linter for Atom that uses the Javascript library luaparse to find syntax errors. Since it's purely javascript, lua does not even need to be installed. Unfortunately, it only reports the first syntax error in a file.
+A Lua linter for Atom using the Javascript library [luaparse](https://github.com/oxyc/luaparse). Since the plugin is purely Javascript, Lua does not even need to be installed. Unfortunately, luaparse only reports the first syntax error in a given file.
